@@ -11,7 +11,6 @@ angular.module('starter', ['ionic'])
 		if(write){
 			var message = [
 			ndef.textRecord($scope.message),
-			//ndef.uriRecord("http://github.com/chariotsolutions/phonegap-nfc")
 			];
 		nfc.write(message);
 		$scope.text = "Succsess";
